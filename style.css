@@ -1,10 +1,10 @@
 .bg_custom_color{
-    background-color: #fff6eb;
+    background-color: #fff7ef;
 }
 
 /* media queiry */
  
-@media only screen and (max-width : 320px) {
+ @media only screen and (max-width : 320px) {
 
     .custom_responsive{
         flex-direction: column;
