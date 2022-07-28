@@ -3,6 +3,10 @@
     background-color: #fff7ef;
 }
 
+.my_custom_filter{
+    filter: brightness(60%);
+}
+
 /* media queiry */
  
  @media only screen and (max-width : 320px) {
