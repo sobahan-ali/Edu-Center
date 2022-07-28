@@ -1,11 +1,15 @@
-
+/* ------------reguler color-------------- */
 .bg_custom_color{
     background-color: #fff7ef;
 }
 
+/* -------------filter brightness--------- */
 .my_custom_filter{
     filter: brightness(60%);
 }
+
+
+
 
 /* media queiry */
  
@@ -14,11 +18,23 @@
     .custom_responsive{
         flex-direction: column;
     }
-    
+    .banner_title{
+        font-size: 20px;
+    }
+    .banner_text{
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width : 321px) and (max-width : 575px){
     .custom_responsive{
         flex-direction: column;
+    }
+
+    .banner_title{
+        font-size: 20px;
+    }
+    .banner_text{
+        font-size: 12px;
     }
 }
